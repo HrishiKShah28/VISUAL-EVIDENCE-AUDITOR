@@ -8,4 +8,8 @@ pytesseract
 imutils
 tqdm
 numpy
-opencv-python-headless==4.9.0.80
+opencv-python==4.8.1.78
+pandas
+plotly
+openai
+jinja2
