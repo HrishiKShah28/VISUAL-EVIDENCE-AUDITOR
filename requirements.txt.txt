@@ -4,8 +4,8 @@ faster-whisper
 ffmpeg-python
 python-dotenv
 requests
-pytesseract    # For OCR in extract_text_from_video
-imutils        # For FileVideoStream
-tqdm           # For progress bars in extract_text_from_video
-numpy          # For CV2 operations in preprocess_frame
-opencv-python-headless
+pytesseract
+imutils
+tqdm
+numpy
+opencv-python-headless==4.9.0.80
