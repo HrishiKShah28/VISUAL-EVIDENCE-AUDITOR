@@ -11,5 +11,3 @@ numpy
 opencv-python==4.8.1.78
 pandas
 plotly
-openai
-jinja2
