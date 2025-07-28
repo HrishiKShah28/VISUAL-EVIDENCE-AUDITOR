@@ -2,3 +2,5 @@ ffmpeg
 tesseract-ocr
 libgl1
 libglib2.0-0
+libatlas-base-dev
+libopenblas-dev
