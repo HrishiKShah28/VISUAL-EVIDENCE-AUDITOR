@@ -11,12 +11,10 @@ An AI powered Streamlit web application for analyzing and comparing videos using
 
 ## Installation
 
-### Prerequisites
-- Python 3.8+
-- [ffmpeg](https://ffmpeg.org/download.html) installed on your system
-- (Optional) [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for text extraction
-- A VideoDB API key (sign up at [videodb.io](https://videodb.io))
-
+## Dependencies
+See `requirements.txt` for Python packages and `packages.txt` for system dependencies:
+- Python: streamlit==1.39.0, videodb, faster-whisper, ffmpeg-python==0.2.0, python-dotenv==1.0.1, requests==2.32.3, pytesseract==0.3.13, imutils==0.5.4, tqdm==4.66.5, numpy==1.26.4, opencv-python==4.8.1.78, pandas==2.2.3, plotly==5.24.1
+- System: ffmpeg, tesseract-ocr, libgl1, libglib2.0-0, libatlas-base-dev, libopenblas-dev
 ### Steps
 1. Clone the repository:
    ```bash
