@@ -3,9 +3,9 @@ videodb
 faster-whisper
 ffmpeg-python
 python-dotenv
-opencv-python
-pytesseract
-imutils
-tqdm
 requests
-numpy
+opencv-python  # Add this for cv2
+pytesseract    # For OCR in extract_text_from_video
+imutils        # For FileVideoStream
+tqdm           # For progress bars in extract_text_from_video
+numpy          # For CV2 operations in preprocess_frame
