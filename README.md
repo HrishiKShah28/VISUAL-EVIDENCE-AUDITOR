@@ -5,7 +5,7 @@ An AI powered Streamlit web application for analyzing and comparing videos using
 ## Features
 - Search and download videos from VideoDB by title or semantic search.
 - Transcribe video audio using faster-whisper with ffmpeg for audio extraction.
-- Compare videos based on audio transcripts and (optionally) on-screen text via OCR.
+- Compare videos based on audio transcripts and on-screen text via OCR.
 - Generate verdicts on video similarity (e.g., "HIGHLY SIMILAR").
 - User-friendly Streamlit interface for video selection and result visualization.
 
