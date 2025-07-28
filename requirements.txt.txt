@@ -1,0 +1,11 @@
+streamlit==1.39.0
+videodb
+faster-whisper
+ffmpeg-python
+python-dotenv
+opencv-python
+pytesseract
+imutils
+tqdm
+requests
+numpy
