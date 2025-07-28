@@ -4,7 +4,6 @@ faster-whisper
 ffmpeg-python
 python-dotenv
 requests
-opencv-python  # Add this for cv2
 pytesseract    # For OCR in extract_text_from_video
 imutils        # For FileVideoStream
 tqdm           # For progress bars in extract_text_from_video
