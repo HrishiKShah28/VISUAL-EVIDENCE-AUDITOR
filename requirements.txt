@@ -1,23 +1,14 @@
-# --- Streamlit + Web UI ---
 streamlit==1.39.0
-python-dotenv
-requests
-tqdm
-pandas
-numpy==1.24.4
-plotly
-
-# --- Whisper Transcription ---
-faster-whisper==0.10.0
+videodb
+faster-whisper==1.0.3
 ffmpeg-python==0.2.0
-
-# --- Video + OCR Processing ---
-opencv-python-headless==4.8.1.78
-pytesseract
-imutils
-
-# --- Python Build Fix (for distutils issue on Python 3.13) ---
-setuptools>=69.0.0
-
-# --- VideoDB client (install directly from GitHub) ---
-videodb @ git+https://github.com/whispernews/videodb-client.git
+python-dotenv==1.0.1
+requests==2.32.3
+pytesseract==0.3.13
+imutils==0.5.4
+tqdm==4.66.5
+numpy==1.26.4
+opencv-python==4.8.1.78
+pandas==2.2.3
+plotly==5.24.1
+setuptools==75.1.0
